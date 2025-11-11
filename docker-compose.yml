@@ -10,6 +10,7 @@ services:
       - backend
     networks:
       - frontend
+      - backend
 
   backend:
     container_name: kupipodariday-backend
